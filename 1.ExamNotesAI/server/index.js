@@ -24,7 +24,7 @@ app.post(
 );
 
 app.use(cors(
-    {origin:"https://ai-notes-mohit-1.onrender.com",
+    {origin:"https://ai-notes-mohit-1client.onrender.com",
         credentials:true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
