@@ -63,7 +63,7 @@ const client = new OpenAI({
 export const generateGeminiResponse = async (prompt) => {
   try {
     const completion = await client.chat.completions.create({
-      model: "openai/gpt-oss-120b", // ya koi bhi groq model
+      model: "llama-3.3-70b-versatile", // ya koi bhi groq model
       messages: [
         {
           role: "user",
